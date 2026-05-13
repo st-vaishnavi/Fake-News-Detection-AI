@@ -73,8 +73,8 @@ vectorizer_path = script_dir.parent / "models" / "vectorizer.pkl"
 logo_path = script_dir.parent / "images" / "logo.png"
 
 # ================= LOAD MODEL =================
-model = pickle.load(open(model_path, "rb"))
-vectorizer = pickle.load(open(vectorizer_path, "rb"))
+model = pickle.load(open("fake_news_model.pkl", "rb"))
+vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
 
 # ================= DATABASE =================
 conn = sqlite3.connect("news_ai.db", check_same_thread=False)
