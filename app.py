@@ -238,8 +238,7 @@ page = st.sidebar.selectbox(
 if page == "🏠 Home":
 
     col1, col2 = st.columns([1, 4])
-    with col1:
-        st.image(str(logo_path), width=150)
+    
     with col2:
         st.markdown("<h1 style='font-size: 3rem;'>AI News Intelligence Platform</h1>", unsafe_allow_html=True)
         st.markdown("<p style='font-size: 1.2rem; color: #a0a0a0;'>Empowering you with AI to distinguish facts from fiction in the digital age.</p>", unsafe_allow_html=True)
