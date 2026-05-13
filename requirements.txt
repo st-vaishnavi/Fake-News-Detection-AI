@@ -1,0 +1,8 @@
+streamlit
+pandas
+matplotlib
+scikit-learn
+newspaper3k
+deep-translator
+lime
+requests
