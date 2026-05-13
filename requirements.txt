@@ -6,3 +6,4 @@ newspaper3k
 deep-translator
 lime
 requests
+lxml_html_clean
